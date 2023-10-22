@@ -7,6 +7,7 @@ import annotations.Id;
 import java.time.LocalDate;
 @Entity(name = "users")
 public class User {
+
     @Id
     @Column(name = "id")
     private long id;
